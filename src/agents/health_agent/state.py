@@ -5,3 +5,4 @@ class State(MessagesState):
   symptoms: list[str]
   diagnosis: str
   transcript: str
+  audio_base64: str
