@@ -12,3 +12,9 @@ wheels/
 # Environment variables
 .env
 .env-*
+
+.cursor
+assets
+
+# Langgraph
+.langgraph_api
