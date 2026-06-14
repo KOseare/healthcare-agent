@@ -18,6 +18,8 @@ def main() -> None:
     result = agent.invoke(INITIAL_STATE)
     print("\nTranscript:")
     print(result["transcript"])
+    print("\nSymptoms:")
+    print(result["symptoms"])
 
 
 if __name__ == "__main__":

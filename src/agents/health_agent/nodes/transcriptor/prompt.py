@@ -1,3 +1,3 @@
 TRANSCRIPTION_PROMPT = (
-    "Medical consultation between a patient and a healthcare professional."
+    "Consulta médica entre un paciente y un profesional de la salud."
 )
