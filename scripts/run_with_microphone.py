@@ -7,6 +7,7 @@ from src.agents.health_agent.main import agent
 INITIAL_STATE = {
     "customer_name": "",
     "symptoms": [],
+    "personal_data": [],
     "diagnosis": "",
     "transcript": "",
     "audio_base64": "",
@@ -20,6 +21,8 @@ def main() -> None:
     print(result["transcript"])
     print("\nSymptoms:")
     print(result["symptoms"])
+    print("\nPersonal data:")
+    print(result["personal_data"])
 
 
 if __name__ == "__main__":
