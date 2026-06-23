@@ -8,6 +8,7 @@ INITIAL_STATE = {
     "customer_name": "",
     "symptoms": [],
     "personal_data": [],
+    "referred_professional": {},
     "diagnosis": "",
     "transcript": "",
     "audio_base64": "",
@@ -23,6 +24,8 @@ def main() -> None:
     print(result["symptoms"])
     print("\nPersonal data:")
     print(result["personal_data"])
+    print("\nReferred professional:")
+    print(result["referred_professional"])
 
 
 if __name__ == "__main__":
